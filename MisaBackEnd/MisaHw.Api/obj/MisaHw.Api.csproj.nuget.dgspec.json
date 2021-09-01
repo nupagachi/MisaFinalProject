@@ -1,0 +1,336 @@
+{
+  "format": 1,
+  "restore": {
+    "E:\\Misa\\FINAL\\MisaFinalProject\\MisaBackEnd\\MisaHw.Api\\MisaHw.Api.csproj": {}
+  },
+  "projects": {
+    "E:\\Misa\\FINAL\\MisaFinalProject\\MisaBackEnd\\MisaHw.Api\\MisaHw.Api.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "E:\\Misa\\FINAL\\MisaFinalProject\\MisaBackEnd\\MisaHw.Api\\MisaHw.Api.csproj",
+        "projectName": "MisaHw.Api",
+        "projectPath": "E:\\Misa\\FINAL\\MisaFinalProject\\MisaBackEnd\\MisaHw.Api\\MisaHw.Api.csproj",
+        "packagesPath": "C:\\Users\\Administrator\\.nuget\\packages\\",
+        "outputPath": "E:\\Misa\\FINAL\\MisaFinalProject\\MisaBackEnd\\MisaHw.Api\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Administrator\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {
+              "E:\\Misa\\FINAL\\MisaFinalProject\\MisaBackEnd\\MisaHw.Application\\MisaHw.Application.csproj": {
+                "projectPath": "E:\\Misa\\FINAL\\MisaFinalProject\\MisaBackEnd\\MisaHw.Application\\MisaHw.Application.csproj"
+              },
+              "E:\\Misa\\FINAL\\MisaFinalProject\\MisaBackEnd\\MisaHw.Data\\MisaHw.Data.csproj": {
+                "projectPath": "E:\\Misa\\FINAL\\MisaFinalProject\\MisaBackEnd\\MisaHw.Data\\MisaHw.Data.csproj"
+              },
+              "E:\\Misa\\FINAL\\MisaFinalProject\\MisaBackEnd\\MisaHw.Utilities\\MisaHw.Utilities.csproj": {
+                "projectPath": "E:\\Misa\\FINAL\\MisaFinalProject\\MisaBackEnd\\MisaHw.Utilities\\MisaHw.Utilities.csproj"
+              },
+              "E:\\Misa\\FINAL\\MisaFinalProject\\MisaBackEnd\\MisaHw.ViewModels\\MisaHw.ViewModels.csproj": {
+                "projectPath": "E:\\Misa\\FINAL\\MisaFinalProject\\MisaBackEnd\\MisaHw.ViewModels\\MisaHw.ViewModels.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "dependencies": {
+            "Dapper": {
+              "target": "Package",
+              "version": "[2.0.90, )"
+            },
+            "Swashbuckle.AspNetCore": {
+              "target": "Package",
+              "version": "[5.6.3, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.100\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "E:\\Misa\\FINAL\\MisaFinalProject\\MisaBackEnd\\MisaHw.Application\\MisaHw.Application.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "E:\\Misa\\FINAL\\MisaFinalProject\\MisaBackEnd\\MisaHw.Application\\MisaHw.Application.csproj",
+        "projectName": "MisaHw.Application",
+        "projectPath": "E:\\Misa\\FINAL\\MisaFinalProject\\MisaBackEnd\\MisaHw.Application\\MisaHw.Application.csproj",
+        "packagesPath": "C:\\Users\\Administrator\\.nuget\\packages\\",
+        "outputPath": "E:\\Misa\\FINAL\\MisaFinalProject\\MisaBackEnd\\MisaHw.Application\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Administrator\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {
+              "E:\\Misa\\FINAL\\MisaFinalProject\\MisaBackEnd\\MisaHw.Data\\MisaHw.Data.csproj": {
+                "projectPath": "E:\\Misa\\FINAL\\MisaFinalProject\\MisaBackEnd\\MisaHw.Data\\MisaHw.Data.csproj"
+              },
+              "E:\\Misa\\FINAL\\MisaFinalProject\\MisaBackEnd\\MisaHw.Utilities\\MisaHw.Utilities.csproj": {
+                "projectPath": "E:\\Misa\\FINAL\\MisaFinalProject\\MisaBackEnd\\MisaHw.Utilities\\MisaHw.Utilities.csproj"
+              },
+              "E:\\Misa\\FINAL\\MisaFinalProject\\MisaBackEnd\\MisaHw.ViewModels\\MisaHw.ViewModels.csproj": {
+                "projectPath": "E:\\Misa\\FINAL\\MisaFinalProject\\MisaBackEnd\\MisaHw.ViewModels\\MisaHw.ViewModels.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "dependencies": {
+            "Dapper": {
+              "target": "Package",
+              "version": "[2.0.90, )"
+            },
+            "Microsoft.Extensions.Configuration.Abstractions": {
+              "target": "Package",
+              "version": "[5.0.0, )"
+            },
+            "Microsoft.Extensions.Options": {
+              "target": "Package",
+              "version": "[5.0.0, )"
+            },
+            "MySql.Data": {
+              "target": "Package",
+              "version": "[8.0.26, )"
+            },
+            "System.Data.SqlClient": {
+              "target": "Package",
+              "version": "[4.8.2, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.100\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "E:\\Misa\\FINAL\\MisaFinalProject\\MisaBackEnd\\MisaHw.Data\\MisaHw.Data.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "E:\\Misa\\FINAL\\MisaFinalProject\\MisaBackEnd\\MisaHw.Data\\MisaHw.Data.csproj",
+        "projectName": "MisaHw.Data",
+        "projectPath": "E:\\Misa\\FINAL\\MisaFinalProject\\MisaBackEnd\\MisaHw.Data\\MisaHw.Data.csproj",
+        "packagesPath": "C:\\Users\\Administrator\\.nuget\\packages\\",
+        "outputPath": "E:\\Misa\\FINAL\\MisaFinalProject\\MisaBackEnd\\MisaHw.Data\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Administrator\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.100\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "E:\\Misa\\FINAL\\MisaFinalProject\\MisaBackEnd\\MisaHw.Utilities\\MisaHw.Utilities.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "E:\\Misa\\FINAL\\MisaFinalProject\\MisaBackEnd\\MisaHw.Utilities\\MisaHw.Utilities.csproj",
+        "projectName": "MisaHw.Utilities",
+        "projectPath": "E:\\Misa\\FINAL\\MisaFinalProject\\MisaBackEnd\\MisaHw.Utilities\\MisaHw.Utilities.csproj",
+        "packagesPath": "C:\\Users\\Administrator\\.nuget\\packages\\",
+        "outputPath": "E:\\Misa\\FINAL\\MisaFinalProject\\MisaBackEnd\\MisaHw.Utilities\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Administrator\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.100\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "E:\\Misa\\FINAL\\MisaFinalProject\\MisaBackEnd\\MisaHw.ViewModels\\MisaHw.ViewModels.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "E:\\Misa\\FINAL\\MisaFinalProject\\MisaBackEnd\\MisaHw.ViewModels\\MisaHw.ViewModels.csproj",
+        "projectName": "MisaHw.ViewModels",
+        "projectPath": "E:\\Misa\\FINAL\\MisaFinalProject\\MisaBackEnd\\MisaHw.ViewModels\\MisaHw.ViewModels.csproj",
+        "packagesPath": "C:\\Users\\Administrator\\.nuget\\packages\\",
+        "outputPath": "E:\\Misa\\FINAL\\MisaFinalProject\\MisaBackEnd\\MisaHw.ViewModels\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Administrator\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.100\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

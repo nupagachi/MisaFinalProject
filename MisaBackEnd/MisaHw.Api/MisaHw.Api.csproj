@@ -1,0 +1,19 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net5.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Dapper" Version="2.0.90" />
+    <PackageReference Include="Swashbuckle.AspNetCore" Version="5.6.3" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\MisaHw.Application\MisaHw.Application.csproj" />
+    <ProjectReference Include="..\MisaHw.Data\MisaHw.Data.csproj" />
+    <ProjectReference Include="..\MisaHw.Utilities\MisaHw.Utilities.csproj" />
+    <ProjectReference Include="..\MisaHw.ViewModels\MisaHw.ViewModels.csproj" />
+  </ItemGroup>
+
+</Project>
