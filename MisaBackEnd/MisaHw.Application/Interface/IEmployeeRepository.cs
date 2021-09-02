@@ -10,6 +10,5 @@ namespace MisaHw.Application.Interface
 {
     public interface IEmployeeRepository : IGenericRepository<Employee>
     {
-        //Task<Pagination<Employee>> GetEmployeePaging(string filter, int pageIndex, int pageSize);
     }
 }

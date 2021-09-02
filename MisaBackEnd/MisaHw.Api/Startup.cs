@@ -19,6 +19,7 @@ namespace MisaHw.Api
 {
     public class Startup
     {
+        private readonly string Origins = "Origin";
         public Startup(IConfiguration configuration)
         {
             Configuration = configuration;
@@ -34,6 +35,16 @@ namespace MisaHw.Api
             services.AddSwaggerGen(c =>
             {
                 c.SwaggerDoc("v1", new OpenApiInfo { Title = "MisaHw.Api", Version = "v1" });
+            });
+             services.AddCors(options =>
+            {
+                options.AddPolicy(Origins,
+                    builder =>
+                    {
+                        builder.WithOrigins("*")
+                            .AllowAnyHeader()
+                            .AllowAnyMethod();
+                    });
             });
             services.AddTransient<IUnitOfWork, UnitOfWork>();
             services.AddTransient<IEmployeeRepository, EmployeeRepository>();
@@ -52,6 +63,8 @@ namespace MisaHw.Api
             }
 
             app.UseRouting();
+
+             app.UseCors(Origins);
 
             app.UseAuthorization();
 
