@@ -1,8 +1,9 @@
 {
   "ExpandedNodes": [
     "",
-    "\\MisaHw.Api",
-    "\\MisaHw.Api\\Controllers"
+    "\\MisaHw.Api\\Controllers",
+    "\\MisaHw.Application",
+    "\\MisaHw.Application\\Repository"
   ],
   "SelectedNode": "\\HomeWork.sln",
   "PreviewInSolutionExplorer": false
